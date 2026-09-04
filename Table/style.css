@@ -1,0 +1,30 @@
+.t1 th {
+  background: rgb(3, 170, 3);
+  height: 40px;
+}
+
+.t3 td,
+.t4 td,
+.t2 td,
+.t1 td,
+.t5 td {
+  width: 150px;
+  text-align: center;
+  height: 50px;
+}
+
+.morning-time {
+  background-color: rgb(222, 222, 7);
+}
+
+.evening-time {
+  background-color: rgb(44, 191, 254);
+}
+
+.lunch-time {
+  background-color: rgb(10, 169, 10);
+}
+
+.info {
+  background-color: rgb(82, 201, 205);
+}

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table border="2" class="t1">
+      <tr>
+        <th>EmpId</th>
+        <th>EmpName</th>
+        <th>EmpDept</th>
+        <th>EmpSalary</th>
+      </tr>
+
+      <tr>
+        <td>101</td>
+        <td>Joe</td>
+        <td>Development</td>
+        <td>50000</td>
+      </tr>
+
+      <tr>
+        <td>102</td>
+        <td>Mary</td>
+        <td>Testing</td>
+        <td>30000</td>
+      </tr>
+
+      <tr>
+        <td>103</td>
+        <td>Beck</td>
+        <td>Testing</td>
+        <td>35000</td>
+      </tr>
+
+      <tr>
+        <td>104</td>
+        <td>Raphael</td>
+        <td>Front-End</td>
+        <td>40000</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table border="2" class="t2">
+      <caption>
+        A test with merged cells
+      </caption>
+      <tr>
+        <td rowspan="2" class="emty-td"></td>
+        <td colspan="2">Average</td>
+        <td rowspan="2">red<br />eyes</td>
+      </tr>
+
+      <tr>
+        <td>height</td>
+        <td>weight</td>
+      </tr>
+
+      <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+
+      <tr>
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table border="2" class="t3">
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+
+      <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+
+      <tr>
+        <th>Bagin</th>
+        <th>End</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td class="morning-time" rowspan="2">8:00 am</td>
+        <td class="evening-time" rowspan="2">5:00 pm</td>
+        <td>Introduction to XML</td>
+      </tr>
+
+      <tr>
+        <td>Validity:DTD and Relax NG</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Teusday</td>
+        <td class="morning-time">8:00 am</td>
+        <td class="morning-time">11:00 am</td>
+        <td rowspan="3">Xpath</td>
+      </tr>
+
+      <tr>
+        <td class="morning-time">11:00 am</td>
+        <td class="lunch-time">2:00 pm</td>
+      </tr>
+
+      <tr>
+        <td class="lunch-time">2:00 pm</td>
+        <td class="evening-time">5:00 pm</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday</td>
+        <td class="morning-time">8:00 am</td>
+        <td class="lunch-time">12:00 pm</td>
+        <td>XSL Formatting Object</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table border="2" class="t4">
+      <tr>
+        <th class="info">Device</th>
+        <th class="info">Brand</th>
+        <th class="info" colspan="3">Specification</th>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Smartphone</td>
+        <td rowspan="3">Apple</td>
+        <td>Model</td>
+        <td>Storege</td>
+      </tr>
+
+      <tr>
+        <td>Iphone 12 Pro</td>
+        <td>256GB</td>
+      </tr>
+
+      <tr>
+        <td>Iphone SE</td>
+        <td>128GB</td>
+      </tr>
+
+      <tr>
+        <td>Laptop</td>
+        <td>HP</td>
+        <td colspan="2">15.6 Display</td>
+      </tr>
+
+      <tr>
+        <td>Tablet</td>
+        <td>Samsung</td>
+        <td colspan="2">10.5 Display</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <table border="2" class="t5">
+      <caption>
+        Nested Tables
+      </caption>
+      <tr>
+        <th>Header column1</th>
+        <th>Header column2</th>
+        <th>Header column3</th>
+        <th>Header column4</th>
+      </tr>
+
+      <tr>
+        <td>Row 2 - item 1</td>
+        <td>Row 2 - item 2</td>
+        <td rowspan="2">
+          Row 2:Nasted Table 1 <br />
+          <table border="1">
+            <tr>
+              <td>Row 1 Header</td>
+              <td>Item</td>
+            </tr>
+
+            <tr>
+              <td>Row 2 Header</td>
+              <td>Item</td>
+            </tr>
+
+            <tr>
+              <td>Row 3 Header</td>
+              <td>Item</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          Row 2 - item 4 <br />
+          a Secound line
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Row 3: Nasted Table 2 <br />
+          <table border="2">
+            <tr>
+              <td>Row 1 Header</td>
+              <td>item</td>
+            </tr>
+
+            <tr>
+              <td>Row 2 Header</td>
+              <td>item</td>
+            </tr>
+          </table>
+        </td>
+        <td>Row 3 Item 2</td>
+        <td rowspan="2">Row 3 Item 3</td>
+      </tr>
+
+      <tr>
+        <td>Row 4 - item 1</td>
+        <td>Row 4 - item 2</td>
+        <td>Row 4 - item 3</td>
+      </tr>
+
+      <tr>
+        <td colspan="4">Row 5 - Last row of outer table</td>
+      </tr>
+    </table>
+  </body>
+</html>
